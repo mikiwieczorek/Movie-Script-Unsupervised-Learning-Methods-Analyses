@@ -1,4 +1,9 @@
 # Movie-Script-Unsupervised-Learning-Methods-Analyses
-hello
 
-hello from marshal
+## Sentiment Analysis
+
+## Association Rules
+
+## Clustering
+
+## Multiple Correspondence Analysis
