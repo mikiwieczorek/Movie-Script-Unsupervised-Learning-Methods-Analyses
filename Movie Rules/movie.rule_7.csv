@@ -1,0 +1,13 @@
+"rules","support","confidence","lift","count"
+"{races,iron,surface} => {bridge}",0.176470588235294,1,2.42857142857143,15
+"{base,lowers,surface} => {bridge}",0.188235294117647,0.941176470588235,2.28571428571429,16
+"{doubt,ends,uses} => {bridge}",0.188235294117647,0.941176470588235,2.28571428571429,16
+"{sparks,surface} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{iron,surface} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{surface,climbing,releases} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{inches,flashes,frantically} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{distant,chin,lowers} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{base,lowers,peers} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{directly,inches,surface,flashes} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{races,base,lowers,surface} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15
+"{base,flat,lowers,race} => {bridge}",0.176470588235294,0.9375,2.27678571428571,15

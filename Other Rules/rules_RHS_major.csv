@@ -1,0 +1,4 @@
+"","rules","support","confidence","lift","count"
+"1527","{everywhere,stick} => {major}",0.590909090909091,1,1.57142857142857,13
+"1530","{disappears,everywhere} => {major}",0.590909090909091,1,1.57142857142857,13
+"10207","{disappears,everywhere,stick} => {major}",0.590909090909091,1,1.57142857142857,13

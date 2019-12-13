@@ -1,0 +1,9 @@
+"rules","support","confidence","lift","count"
+"{conference,earlier} => {elevator}",0.188235294117647,0.941176470588235,2.22222222222222,16
+"{assistant,pockets} => {elevator}",0.188235294117647,0.941176470588235,2.22222222222222,16
+"{necessary,taxi} => {elevator}",0.188235294117647,0.888888888888889,2.09876543209877,16
+"{allowed,tray} => {elevator}",0.188235294117647,0.888888888888889,2.09876543209877,16
+"{earlier,truck} => {elevator}",0.211764705882353,0.857142857142857,2.02380952380952,18
+"{catching,glimpse} => {elevator}",0.2,0.85,2.00694444444444,17
+"{clearly,sidewalk} => {elevator}",0.2,0.85,2.00694444444444,17
+"{offers,tray} => {elevator}",0.2,0.85,2.00694444444444,17

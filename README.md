@@ -1,13 +1,9 @@
 # Movie-Script-Unsupervised-Learning-Methods-Analyses
 
-<<<<<<< HEAD
-hello from marshal
-=======
-## Sentiment Analysis
+- detailes in the power point presentation (UnsupervisedFinalPresentation.pptx) and word document report (85_movies.docx)
 
-## Association Rules
+## Methods Used
 
-## Clustering
-
-## Multiple Correspondence Analysis
->>>>>>> f04adb2a1e73a0d1922ffd8b46702660df8fd0d9
+- Sentiment Analysis
+- Association Rules
+- Clustering

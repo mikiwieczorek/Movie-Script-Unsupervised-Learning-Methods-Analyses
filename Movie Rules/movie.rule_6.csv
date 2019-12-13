@@ -1,0 +1,5 @@
+"rules","support","confidence","lift","count"
+"{awkwardly,sides} => {dances}",0.105882352941176,0.818181818181818,4.09090909090909,9
+"{saturday,wallet} => {dances}",0.0941176470588235,0.8,4,8
+"{fate,knocking} => {dances}",0.0941176470588235,0.8,4,8
+"{peace,grips} => {dances}",0.0941176470588235,0.8,4,8
