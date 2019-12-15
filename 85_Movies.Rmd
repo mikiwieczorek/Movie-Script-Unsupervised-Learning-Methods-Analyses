@@ -33,18 +33,21 @@ library(gplots)
 library(RColorBrewer)
 
 ```
+
 # Motivation
+We wanted to look at movie scripts and see if there were any common traits associated with movies. Because of this we decided to do text mining on Movie Scripts and analyze text features. 
 
-'tis amazing!
+# Executive summary
 
-# Excecutive summary
+By looking at movie scripts we have found a number of interesting conclusions based on what we found. We found that one of the largest emotions that are found in movies is trust. We also found that common genre movies do tend to cluster around each other like for example kids’ movies. We expected there would be more clustering around genre but, it wasn’t as significant as we expected. 
 
-blah blah
-# Data Descirption
-yes, a lot of work
+# Methods:
 
-# Methods used:
-many many very much
+- Clustering (hclust, agnes, and kmeans)
+- Association Rules
+- Sentiment Analysis 
+- Frequency Plots
+
 
 ## Upload Movies
 ```{r}
@@ -205,14 +208,19 @@ dtm.movie.dist_85 = dist(clust.dtm.matrix_85, method = "Jaccard")
 ```{r}
 #Plotting hlust
 dtm.movie.clust_85 = hclust(dtm.movie.dist_85, method = "ward.D")
-plot(dtm.movie.clust_85, cex = .7, labels = Genre.df$Genre)
+plot(dtm.movie.clust_85, cex = .7)
+```
+
+```{r}
+#Plotting hclust with movie genre labels
+read.csv("emotions_final.csv") -> label
+plot(dtm.movie.clust_85, cex = .7, labels = label$Genre)
 ```
 
 
-
 ```{r}
-movie.groups_85 = cutree(dtm.movie.clust_85, k=10)
-table(movie.groups_85, Genre.df$Genre)
+movie.groups_85 = cutree(dtm.movie.clust_85, k=3)
+table(movie.groups_85, label$Genre)
 ```
 
 #### K-means
@@ -231,8 +239,9 @@ fviz_nbclust(clust.dtm.matrix_85,kmeans,k.max=15,method = "gap_stat")
 
 ```{r}
 shooby_85 = kmeans(clust.dtm.matrix_85,3)
-table(shooby_85$cluster, Genre.df$Genre)
+table(shooby_85$cluster, label$Genre)
 ```
+
 ```{r}
 
 fviz_cluster(shooby_85,data = clust.dtm.matrix_85)
